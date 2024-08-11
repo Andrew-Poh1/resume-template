@@ -1,0 +1,87 @@
+
+/* General */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.page-wrapper{
+    display: flex;
+    margin: auto;
+    border: 5px solid rgb(182, 182, 182);
+    width: 50%;
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.white-line{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 15px 0;
+}
+.black-line{
+    border: 1px solid black;
+    margin: 15px 0;
+}
+/* photo */
+
+.profile-pic-container{
+    text-align: center;
+}
+.profile-pic{
+    width: 75%;
+    margin: auto;
+}
+
+/* sections */
+section{
+    height: 100%;
+}
+
+/* left section */
+
+.left-section-wrapper{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.left-section, .left-section a{
+    color: white;
+    width: 35%;
+    background-color: rgb(31, 31, 31);
+}
+/* right section */
+
+.right-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.right-section{
+    width: 50%;
+    margin: auto;
+
+}
+.right-section, .right-section a{
+    color: rgb(31, 31, 31);
+    background-color: rgb(255, 255, 255);
+}
+.header h1{
+    font-size: 80px;
+}
+.header-info{
+    border-left: 1px solid rgb(145, 145, 145);
+    margin: 10px 0;
+    color: rgb(145, 145, 145);
+}
+.header-info p{
+    margin-left: 10px;
+}
+#portfolio{
+    margin: 10px 0;
+}
